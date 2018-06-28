@@ -1,0 +1,95 @@
+body {font-size: 12px; padding-top: 64px;}
+
+h1 {font-size: 2.6em; margin-bottom: 1em; margin-top: 0;}
+h2 {font-size: 2em; margin-bottom: 1em; margin-top: 0;}
+h3 {font-size: 1.4em; line-height: 1.5em; margin-bottom: 0.8em; margin-top: 0;}
+h3 img {margin-right: .8em; float: left; margin-bottom: 0.8em;}
+
+p {font-size: 1.4em;}
+p.bigger {font-size: 1.5em;}
+section.text-section ul li, section.text-section ol li {line-height: 1.5em; font-size: 1.4em;}
+
+.hidden-md-up {display: none !important;}
+.hidden-sm-down {display: none;}
+
+.pull-right-md {float: right;}
+
+.container { max-width: 950px; position: relative;}
+.text-section {padding: 4em 0;}
+.second-nav-section {padding: 2em 0;}
+
+.brinqa-btn {padding: 0.5em 1.5em;}
+
+.twitter-section {padding: 1.5em 0; }
+.twitter-section svg {width: 1.5em; height: 1.5em; margin-right: 2em;}
+
+
+.twitter-slider {height: auto;}
+.twitter-slider .ctf-item {height: auto;}
+
+#ctf {overflow: hidden;}
+#ctf .ctf-item {overflow: hidden;}
+#ctf .ctf-author-box {height: 1.5em; width: 100%; min-height: 0;}
+#ctf .ctf-author-box .ctf-tweet-meta {margin: 0;}
+.twitter-slider .ctf-item .ctf-tweet-content {width: 100%;}
+.twitter-slider .ctf-item .ctf-tweet-content a {margin-left: 0.5em;}
+#ctf .ctf-tweet-content {float: none;}
+#ctf .ctf-author-box {float: none;}
+#ctf .ctf-tweet-content {padding-bottom: 0;}
+#ctf .owl-stage-outer {overflow: hidden;}
+
+.navbar-nav > li > a {padding: 22px 10px; }
+.navbar .brinqa-logo {height: 64px; line-height: 64px;}
+.navbar .navbar-btn {margin: 14px 14px 14px 27px; text-transform: uppercase; padding-left: 7px; padding-right: 7px;}
+.navbar .form-group {margin: 16px 0px 16px 27px;}
+.navbar .call-to-link {display: none;}
+
+.search-form .form-group {transition: all 0.35s; width: 32px; height: 32px;}
+.search-form .form-group span.form-control-feedback {width: 34px; height: 34px; line-height: 34px; top: -1px; right: -2px; font-size: 1.3em;}
+
+
+.main-slider-container { padding: 50px 0px; background-size: auto 100%; }
+.main-slider {  height: 428px; }
+.main-slider .one-slide .slide-text {padding-top: 4em;}
+.main-slider .owl-stage-outer {height: 450px;}
+.main-slider .owl-dots {margin-top: 0;}
+.main-slider .owl-nav {visibility: hidden;}
+
+.clients-slider-static .one-client-slide {margin-right: 5em;}
+.clients-slider-static .one-client-slide:nth-child(4),.clients-slider-static .one-client-slide:nth-child(5) {display:none;}
+.clients-slider-static .one-client-slide:nth-child(3) {margin: 0;}
+
+.one-approach {margin-top: 3em; padding: 0 1.2em;}
+.one-approach p {padding-left: 0.5em; padding-right: 0.5em; text-align: justify;}
+
+.products-slider {margin-top: 4em;}
+.products-slider .icon-link svg {margin-top: 2em; margin-bottom: 2em; margin-right: 3em; width: 3em; height: 3em; }
+.products-slider strong {margin-bottom: 0.8em;}
+.products-slider .one-product-desc {margin-bottom: 4em;}
+.products-slider .one-product-desc .one-product-desc-text {margin-left: 6em;}
+
+.watch-video .watch-link {font-size: 1.5em; line-height: 2.5em;}
+.watch-video .watch-link svg {height: 2em; width: 2em;}
+
+
+.learn-more .heading-icon svg {height: 2.5em; width: 2.5em; margin-bottom: 1em;}
+.learn-more .one-card {width: 20em; height: 20em;}
+.learn-more .one-card .card-img-link {height: 15em;}
+.learn-more .one-card .card-text {height: 5em; padding: 1em;}
+
+.events-section .event-bubble-container {padding: 2em 0;}
+
+footer {font-size: 0.8em;}
+
+.blog-posts {padding-right: 0;}
+
+.blog-sidebar {padding-left: 0; margin-top: 5em;}
+
+.stay-tuned-form {padding-left: 2em;}
+.stay-tuned-form label {margin-top: 0;}
+
+.blog-categories-mobile {margin-bottom: 5em;}
+
+
+.text-section .square-grid-element .square-element-img img{height: 18em;}
+.text-section .square-grid-element .square-element-dec h3 {font-size: 1.2em; line-height: 1.3em;  height: 5.2em;}

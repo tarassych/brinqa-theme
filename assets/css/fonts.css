@@ -1,0 +1,22 @@
+@import url("//fast.fonts.net/t/1.css?apiType=css&projectid=750ff8ec-361e-4c3c-a810-fa32f6d80edd");
+@font-face{
+    font-family:"Frutiger Neue";
+    font-style: normal;
+    font-weight: 100;
+    src:url("../fonts/56a45cb7-f23d-49a0-bfc2-c8697c283d7f.eot?#iefix");
+    src:url("../fonts/56a45cb7-f23d-49a0-bfc2-c8697c283d7f.eot?#iefix") format("eot"),url("../fonts/3707b616-fa68-46f1-b366-6203b775dfba.woff2") format("woff2"),url("../fonts/a1195dfc-f0a3-4c60-9515-d3808dc66b4c.woff") format("woff"),url("../fonts/fb62cba5-0fb8-498f-8359-eaaff75c288c.ttf") format("truetype"),url("../fonts/af337833-f8b0-4e2a-9f34-7de96f0d0fe4.svg#af337833-f8b0-4e2a-9f34-7de96f0d0fe4") format("svg");
+}
+@font-face{
+    font-family:"Frutiger Neue";
+    font-style: normal;
+    font-weight: 200;
+    src:url("../fonts/12d6929b-8b96-4898-b413-6bd6d0e2d0fb.eot?#iefix");
+    src:url("../fonts/12d6929b-8b96-4898-b413-6bd6d0e2d0fb.eot?#iefix") format("eot"),url("../fonts/5ff45fd8-b17d-4b99-a293-7969c71b8e1c.woff2") format("woff2"),url("../fonts/a2afa464-03b1-4a6c-b5cb-3521a1cf94ba.woff") format("woff"),url("../fonts/9aa255d9-7d3d-420a-bb79-2f91c4aed10f.ttf") format("truetype"),url("../fonts/b755ea1d-fab9-4588-b7a8-31350efb38f9.svg#b755ea1d-fab9-4588-b7a8-31350efb38f9") format("svg");
+}
+@font-face{
+    font-family:"Frutiger Neue";
+    font-style: normal;
+    font-weight: 300;
+    src:url("../fonts/4510b370-f470-4a48-9e50-610e1eda0c0f.eot?#iefix");
+    src:url("../fonts/4510b370-f470-4a48-9e50-610e1eda0c0f.eot?#iefix") format("eot"),url("../fonts/33b6f34a-c72d-45b1-b53e-b1f65815790e.woff2") format("woff2"),url("../fonts/dd178e8e-241c-40e4-8de9-517c03b90b59.woff") format("woff"),url("../fonts/5c8447f4-b7e3-462a-87f2-b823e98d6da5.ttf") format("truetype"),url("../fonts/22971d02-0160-4a1f-b7ea-5999e0509d35.svg#22971d02-0160-4a1f-b7ea-5999e0509d35") format("svg");
+}

@@ -1,0 +1,141 @@
+body {font-size: 12px; padding-top: 50px;}
+
+h1 {font-size: 2.4em; margin-bottom: 0.8em; margin-top: 0;}
+h2 {font-size: 1.8em; margin-bottom: 0.8em; margin-top: 0;}
+h3 {font-size: 1.3em; line-height: 1.5em; margin-bottom: 0.8em; margin-top: 0;}
+h3 img {margin-right: 0.8em;}
+
+p {font-size: 1.3em;}
+p.bigger {font-size: 1.4em;}
+section.text-section ul li, section.text-section ol li {line-height: 1.5em; font-size: 1.4em;}
+
+.container { max-width: 950px; position: relative;}
+.text-section {padding: 2em 0;}
+.text-center-xs {text-align: center;}
+.text-center-xs :after {margin-left: auto; margin-right: auto;}
+.second-nav-section {padding: 2em 0;}
+
+.hidden-md-up {display: inline;}
+.hidden-sm-down {display: none;}
+
+.no-xs-margin {margin: 0 !important;}
+.pull-right-xs {float: right !important;}
+
+.additional-y-spacing {margin-top: auto; margin-bottom: auto;}
+.static-content-image, .static-content-image.reversed {width: auto; height: auto; position: relative; left: auto; top: auto; right: auto; }
+.static-content-image img, .static-content-image.reversed img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+
+}
+
+.brinqa-btn {padding: 0.5em 1.5em; font-size: 1.1em; margin-right: 0.8em;}
+
+.twitter-section {padding: 1.5em 0; }
+.twitter-section svg {width: 1.5em; height: 1.5em; margin-right: 2em;}
+
+.twitter-slider {height: auto;}
+.twitter-slider .ctf-item {height: auto;}
+
+#ctf {overflow: hidden;}
+#ctf .ctf-item {overflow: hidden;}
+#ctf .ctf-author-box {height: 1em; width: 100%; min-height: 0;}
+#ctf .ctf-author-box .ctf-tweet-meta {margin: 0;}
+.twitter-slider .ctf-item .ctf-tweet-content {width: 100%;}
+.twitter-slider .ctf-item .ctf-tweet-content a {margin-left: 0.5em;}
+#ctf .ctf-tweet-content {float: none;}
+#ctf .ctf-author-box {float: none;}
+#ctf .ctf-tweet-content {padding-bottom: 0;}
+#ctf .owl-stage-outer {overflow: hidden;}
+
+.navbar-nav > li > a {padding: 1em 0.5em; font-size: 1.2em; }
+.navbar .brinqa-logo {height: 50px; line-height: 50px;}
+.navbar .navbar-btn {margin: 14px 0px 14px 27px; text-transform: uppercase; padding-left: 7px; padding-right: 7px; }
+.navbar .form-group {margin: 16px 0px 16px 27px;}
+.navbar .call-to-link {line-height: 32px; margin: 16px 0; position: absolute; right: -88px; visibility: hidden;}
+
+.navbar-collapse.collapsing, .navbar-collapse.in {background-color: rgba(255, 255, 255, 0.9)}
+
+.search-form .form-group {transition: all 0.35s; width: 32px; height: 32px;}
+.search-form .form-group span.form-control-feedback {width: 34px; height: 34px; line-height: 34px; top: -1px; right: -2px; font-size: 1.3em;}
+
+
+.main-slider-container { padding: 50px 0px; background-size: auto 100%; }
+.main-slider {  height: 342px; }
+.main-slider .one-slide .slide-text {padding-top: 2em;}
+.main-slider .owl-stage-outer {height: 350px;}
+.main-slider .owl-dots {margin-top: 0;}
+.main-slider .one-slide .slide-image {left: 65%;}
+.main-slider .owl-nav {visibility: hidden;}
+
+.clients-slider-static .one-client-slide {margin-right: 3em;}
+.clients-slider-static .one-client-slide img {max-height: 4em;}
+.clients-slider-static .one-client-slide:nth-child(4),.clients-slider-static .one-client-slide:nth-child(5) {display:none;}
+.clients-slider-static .one-client-slide:nth-child(3) {margin: 0;}
+
+.one-approach {margin-top: 1.5em; padding: 0 1em;}
+.one-approach p {padding-left: 0.5em; padding-right: 0.5em; text-align: justify;}
+
+
+.products-slider {margin-top: 2em;}
+.products-slider .icon-link svg {margin-top: 2em; margin-bottom: 2em; margin-right: 3em; width: 3em; height: 3em; }
+.products-slider strong {margin-bottom: 0.8em;}
+.products-slider .one-product-desc {margin-bottom: 2em;}
+.products-slider .one-product-desc .one-product-desc-text {margin-left: 6em;}
+
+.watch-video .watch-link {font-size: 1.5em; line-height: 2.5em;}
+.watch-video .watch-link svg {height: 2em; width: 2em;}
+
+
+.learn-more .heading-icon svg {height: 2.5em; width: 2.5em; margin-bottom: 1em;}
+.learn-more .one-card {width: 20em; height: 20em;}
+.learn-more .one-card .card-img-link {height: 15em;}
+.learn-more .one-card .card-text {height: 5em; padding: 1em;}
+
+.products-slider .product-image-selected {left: 65%;}
+
+.clients { padding: 1em 0;}
+
+footer {font-size: 1em;}
+footer ul li {line-height: 1.5em; padding: 0.5em 0;}
+footer .footer-spacer {background:#2C2C2C; height: 1px; margin: 1em auto;}
+footer form input[type="submit"] {padding: 0.5em 1.5em;}
+footer form input[type="text"] {font-size: 1em;}
+footer h3 {margin-bottom: 0.5em;}
+
+.page-content-section .square-box {margin-bottom: 2.5em;}
+
+form .row>div:nth-child(even) {margin-top: 2em;}
+
+
+.page-content-section .one-leader-row img {margin-bottom: 2em;}
+.page-content-section .one-leader-row:after {display: block; width: 10em; margin: 1em auto; background: #578c41; height: 2px; content: '';}
+
+.quote-section .left-quote-sign {width: auto; height: 2em; left: 0.5em; }
+.quote-section .right-quote-sign {width: auto; height: 4em; right: 0.5em; bottom: -1em;}
+
+.events-section .event-date-label {margin-left: 1em; margin-right: auto;}
+.events-section .pull-right-xs .event-bubble{margin-left: 0; margin-right: 0;}
+.events-section .pull-right-xs .event-bubble::after {right: 100%; left: auto; top: 15%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(255, 255, 255, 0);  border-right-color: #fff; border-width: 10px; margin-top: -10px;}
+.events-section .event-bubble-container {background-position-x: 3em;}
+.events-section .event-bubble-container::before {left: 3.15em;}
+
+.blog-posts {padding-right: 0;}
+
+.blog-sidebar {padding-left: 0; margin-top: 5em;}
+
+.stay-tuned-form {}
+.stay-tuned-form label {}
+
+.blog-categories-mobile {margin-bottom: 5em;}
+
+.text-section .square-grid-element .square-element-img img{height: 20em;}
+.text-section .square-grid-element .square-element-dec h3 {font-size: 1.2em; line-height: 1.3em;  height: 5.2em;}
+
+.copyrights {line-height: 1.5em;}
+.copyrights .footer-logo {display: block; margin: 0 auto 1em auto; text-align: center;}
+.copyrights .social-buttons {margin-top: 1em; text-align: center;}
+.copyrights .social-buttons a {float: none;}
