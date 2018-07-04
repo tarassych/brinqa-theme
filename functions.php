@@ -70,7 +70,6 @@ function brinqa_scripts_and_styles()
 	// css
 //	wp_enqueue_style('brinqa-fonts', 'https://fonts.googleapis.com/css?family=Roboto:300,400,700', array(), '1.0' );
 	wp_enqueue_style('brinqa-owl-carousel', get_theme_file_uri( '/assets/css/owl.carousel.min.css' ), array(), '2.2.1' );
-	wp_enqueue_style('brinqa-slick', get_theme_file_uri( '/assets/css/slick.css' ), array(), '2.2.1' );
 	wp_enqueue_style('brinqa-wow-animate', get_theme_file_uri( '/assets/css/wow-animate.css' ), array(), '3.5.2' );
 	wp_enqueue_style('brinqa-main', get_theme_file_uri( '/assets/css/main.min.css' ), array('brinqa-owl-carousel','brinqa-wow-animate'), '1.0' );
 //	wp_enqueue_style('brinqa-main', get_theme_file_uri( '/assets/css/main.css' ), array('brinqa-owl-carousel','brinqa-wow-animate'), '1.0' );
@@ -85,8 +84,6 @@ function brinqa_scripts_and_styles()
 	wp_enqueue_script( 'brinqa-owl-carousel', get_theme_file_uri( '/assets/js/owl.carousel.min.js' ), array('jquery'), '2.2.1', true);
 	wp_enqueue_script( 'brinqa-wow-animate', get_theme_file_uri( '/assets/js/wow.min.js' ), array('jquery'), '1.1.3', true);
 	wp_enqueue_script( 'brinqa-theme-scripts', get_theme_file_uri( '/assets/js/theme.min.js' ), array('jquery'), '1.0', true);
-	wp_enqueue_script( 'flip', get_theme_file_uri( '/assets/js/jquery.flip.min.js' ), array('jquery'), '1.0', true);
-	wp_enqueue_script( 'slick', get_theme_file_uri( '/assets/js/slick.min.js' ), array('jquery'), '1.0', true);
 }
 
 function brinqa_setup()
