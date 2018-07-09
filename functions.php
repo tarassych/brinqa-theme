@@ -71,19 +71,22 @@ function brinqa_scripts_and_styles()
 //	wp_enqueue_style('brinqa-fonts', 'https://fonts.googleapis.com/css?family=Roboto:300,400,700', array(), '1.0' );
 	wp_enqueue_style('brinqa-owl-carousel', get_theme_file_uri( '/assets/css/owl.carousel.min.css' ), array(), '2.2.1' );
 	wp_enqueue_style('brinqa-wow-animate', get_theme_file_uri( '/assets/css/wow-animate.css' ), array(), '3.5.2' );
-	wp_enqueue_style('brinqa-main', get_theme_file_uri( '/assets/css/main.min.css' ), array('brinqa-owl-carousel','brinqa-wow-animate'), '1.0' );
-//	wp_enqueue_style('brinqa-main', get_theme_file_uri( '/assets/css/main.css' ), array('brinqa-owl-carousel','brinqa-wow-animate'), '1.0' );
+//	wp_enqueue_style('brinqa-main', get_theme_file_uri( '/assets/css/main.min.css' ), array('brinqa-owl-carousel','brinqa-wow-animate'), '1.0' );
+	wp_enqueue_style('brinqa-main', get_theme_file_uri( '/assets/css/main.css' ), array('brinqa-owl-carousel','brinqa-wow-animate'), '1.0' );
 	wp_enqueue_style('brinqa-theme', get_stylesheet_uri(), array('brinqa-main'), '1.0' );
 
 	// js in header
 	wp_enqueue_script( 'bootstrap-html4shiv', 'https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js', array(), null, false );
 	wp_enqueue_script( 'bootstrap-respond', 'https://oss.maxcdn.com/respond/1.4.2/respond.min.js', array(), null, false );
 	wp_enqueue_script('jquery');
+	wp_enqueue_script( 'brinqa-jquery', 'https://code.jquery.com/jquery-2.1.4.min.js', false, null);
 
 	// js in footer
+	wp_enqueue_script( 'brinqa-flip', 'https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js', false, null);
 	wp_enqueue_script( 'brinqa-owl-carousel', get_theme_file_uri( '/assets/js/owl.carousel.min.js' ), array('jquery'), '2.2.1', true);
 	wp_enqueue_script( 'brinqa-wow-animate', get_theme_file_uri( '/assets/js/wow.min.js' ), array('jquery'), '1.1.3', true);
-	wp_enqueue_script( 'brinqa-theme-scripts', get_theme_file_uri( '/assets/js/theme.min.js' ), array('jquery'), '1.0', true);
+	//wp_enqueue_script( 'brinqa-theme-scripts', get_theme_file_uri( '/assets/js/theme.min.js' ), array('jquery'), '1.0', true);
+	wp_enqueue_script( 'brinqa-theme-scripts', get_theme_file_uri( '/assets/js/theme.js' ), array('jquery'), '1.0', true);
 }
 
 function brinqa_setup()
@@ -165,7 +168,7 @@ function brinqa_blog_pagination($numpages = '', $pagerange = '', $paged='')
 		'add_fragment'    => ''
 	);
 	$paginate_links = paginate_links($pagination_args);
-	
+
 	if ($paginate_links)
 	{
 		echo "<nav class='brinqa-pagination text-center'>";

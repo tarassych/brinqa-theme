@@ -153,3 +153,7 @@ form .row>div:nth-child(even) {margin-top: 2em;}
 .copyrights .social-buttons {margin-top: 1em; text-align: center;}
 .copyrights .social-buttons a {float: none;}
 
+.single-client{width: 50%;float: left;}
+.clients-grid .single-client:nth-child(n + 4){border-top: none;}
+.clients-grid .single-client:nth-child(2n+1){border-right: 1px solid #f1f1f1;}
+.clients-grid .single-client:nth-child(n + 3){border-top: 1px solid #f1f1f1;}

@@ -51,7 +51,7 @@ jQuery(function ($) {
             }
         });
     }
-    
+
     // CUSTOM SLIDER FOR PRODUCTS
     if ( $(".products-slider").length > 0 )
     {
@@ -59,7 +59,7 @@ jQuery(function ($) {
         {
             var slider = product.closest(".products-slider");
             var selected_product_img = $(".product-image-selected", slider);
-            
+
             $(".icon-link.active", slider).removeClass('active');
             $(".icon-link", product).addClass('active');
 
@@ -76,7 +76,7 @@ jQuery(function ($) {
 
         // make first product active
         active_product_image($(".products-slider .one-product-desc").first());
-        
+
     }
 
     // PLAY VIDEO IN MODAL
@@ -113,7 +113,7 @@ jQuery(function ($) {
         $(".job-read-more-btn").click(function(){
             var one_job = $(this).closest(".one-job");
             $(this).hide();
-            
+
             $(".hidden-job-content", one_job).slideDown(500);
 
             return false;
@@ -162,4 +162,36 @@ jQuery(function ($) {
             window.location.hash = $(".second-nav:first-child li:first-child .custom-cat-link").attr('href');
         }
     }
+
+
+    // flip CLIENTS
+    var cards_to_show = 6;
+    if($(document).width() <= 480){
+      $('.single-client:nth-child(5), .single-client:nth-child(6)').addClass('hidden');
+      cards_to_show = 4;
+    }
+    $('.single-client').flip({
+			trigger: 'manual',
+			speed: 300
+		});
+		var old_tile = 0;
+		var new_tile = 0;
+		var clients_count = $('.single-client').length;
+		setTimeout(function(){
+			setInterval(function(){
+				new_tile = Math.floor(Math.random() * cards_to_show) + 1;
+				while(old_tile == new_tile){
+					var new_tile = Math.floor(Math.random() * cards_to_show) + 1;
+				}
+				old_tile = new_tile;
+				var new_client_number = Math.floor(Math.random() * (clients_count - cards_to_show)) + cards_to_show + 1;
+				var new_logo = $('.single-client:nth-child(' + new_client_number + ') .front img').attr('src');
+				var old_logo = $('.single-client:nth-child(' + new_tile + ') .front img').attr('src');
+				$('.single-client:nth-child(' + new_client_number + ') .front img').attr('src', old_logo);
+				$('.single-client:nth-child(' + new_client_number + ') .back img').attr('src', old_logo);
+				$('.single-client:nth-child(' + new_tile + ')').flip('toggle');
+				$('.single-client:nth-child(' + new_tile + ') .front img').attr('src', new_logo);
+				$('.single-client:nth-child(' + new_tile + ') .back img').attr('src', new_logo);
+			},2000);
+		}, 5000);
 });

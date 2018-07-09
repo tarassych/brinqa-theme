@@ -131,7 +131,7 @@
         </div>
     </section>
 
-<?php get_template_part( 'template-parts/section', 'clients-slider' ); ?>
+<?php get_template_part( 'template-parts/section', 'clients-grid' ); ?>
 
     <section class="learn-more text-section greyed">
         <div class="container">
@@ -201,5 +201,6 @@
             </div>
         </div>
     </div>
+
 
 <?php get_footer(); ?>
